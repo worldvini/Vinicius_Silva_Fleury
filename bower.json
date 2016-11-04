@@ -1,0 +1,17 @@
+{
+  "name": "worldvini_site",
+  "homepage": "https://github.com/worldvini/webpage_portfolio",
+  "authors": [
+    "Vinicius da Silva Fleury <worldvini@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
