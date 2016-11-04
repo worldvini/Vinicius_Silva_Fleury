@@ -1,0 +1,25 @@
+{
+  "name": "worldvini_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worldvini/webpage_portfolio.git"
+  },
+  "author": "Vinicius da Silva Fleury - worldvini@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worldvini/webpage_portfolio/issues"
+  },
+  "homepage": "https://github.com/worldvini/webpage_portfolio#readme"
+}
