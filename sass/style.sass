@@ -1,0 +1,65 @@
+@import ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap
+@import ../bower_components/font-awesome/scss/font-awesome
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700')
+
+$white: #fff
+$black: #000
+
+/*mini reset*/
+body
+	margin: 0px
+	padding: 0px
+	border: 0px
+/*sections com 100% de altura */
+section,
+header
+	height: 100vh
+/*header*/
+.topo
+	background-color: $black
+	display: flex
+.menu
+	top: 0px	
+	position: fixed	
+	width: 100%
+	background-color: rgba($black, 0.6)
+	img 
+		float: left
+		height: 80px
+	ul	
+		float: right
+		li 
+			padding: 5px 20px 0px			
+			line-height: 60px
+			font-size: 1.3em
+			display: inline-block
+			a 
+				text-decoration: none
+				color: $white
+.apresentacao
+	display: flex
+	justify-content: center
+	align-items: center
+	color: $white	
+	text-align: center
+	h1
+		font-size: 4em
+	p 
+		font-size: 2em	
+
+
+
+/*desktop*/
+@media screen and (max-width: 480px)
+	.topo
+		background: url("../images/banner_top_mobile.jpeg") center center no-repeat fixed
+/*tablet*/
+@media screen and (max-width: 980px)
+	.topo
+		background: url("../images/banner_top_tablet.jpeg") center center no-repeat fixed
+		background-size: cover
+/*mobile*/
+@media screen and (min-width: 981px)
+	.topo
+		background: url("../images/banner_top_desktop.jpg") center center no-repeat fixed
+		background-size: cover
