@@ -8188,7 +8188,7 @@ header {
 .apresentacao {
   color: #fff;
   text-align: center;
-  text-shadow: 3px 3px 3px #885a00; }
+  text-shadow: 3px 3px 3px #00A736; }
   .apresentacao h1 {
     font-size: 4em; }
     .apresentacao h1 span {
@@ -8200,24 +8200,25 @@ header {
 /* section sobre */
 .sobre {
   text-align: center;
-  background-color: #ededed; }
+  background-color: #011218;
+  color: #fff; }
   .sobre img {
-    border: 5px #d7a508 solid;
+    border: 5px #00A736 solid;
     border-radius: 15em;
     margin: 0px 40px;
-    box-shadow: 2px 2px 2px #885a00; }
+    box-shadow: 2px 2px 2px #00A736; }
   .sobre .fa {
     font-size: 4em;
     padding: 35px;
     border-radius: 15em;
     color: #fff;
-    background-color: rgba(215, 165, 8, 0.7);
-    box-shadow: 3px 3px 3px #885a00; }
+    background-color: rgba(0, 167, 54, 0.7);
+    box-shadow: 3px 3px 3px #00A736; }
   .sobre h3 {
     font-size: 3em;
     padding: 25px; }
   .sobre p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding: 0px 30px; }
 
 /*desktop*/
