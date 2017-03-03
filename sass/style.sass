@@ -6,6 +6,7 @@ $white: #fff
 $black: #000
 $brow: #FF6E00
 $grey: #ededed
+$green: #022424
 $blackgreen: #011218
 
 /*mini reset*/
@@ -16,6 +17,7 @@ body
 	font-family: 'Open Sans', sans-serif
 /*sections com 100% de altura */
 section,
+main,
 header
 	height: 100vh
 .conteudo
@@ -58,7 +60,7 @@ header
 /* section sobre */		
 .sobre 
 	text-align: center
-	background-color: $blackgreen
+	background-color: $green
 	color: $white
 	img 
 		border: 5px #00A736 solid		
@@ -78,7 +80,11 @@ header
 	p 
 		font-size: 1.3em
 		padding: 0px 30px	
-/*desktop*/
+/*Section Habilidades*/
+.habilidades
+	background-color: $blackgreen
+
+/*mobile*/
 @media screen and (max-width: 480px)
 	/*header*/
 	.topo
@@ -94,14 +100,15 @@ header
 			font-size: 1.2em		
 	/*section sobre*/
 	.sobre
+		height: 100%
 		img
-			width: 150px
-			margin: 0px 15px 
+			width: 130px
+			margin: 0px 5px 
 		.fa 
 			padding: 20px
-			font-size: 2em	
+			font-size: 1.6em	
 		h3 
-			font-size: 1.5
+			font-size: 1.5em
 		p 
 			font-size: 1em				
 /*tablet*/
@@ -123,7 +130,7 @@ header
 		.fa 
 			padding: 25px
 			font-size: 3em			
-/*mobile*/
+/*desktop*/
 @media screen and (min-width: 981px)
 	/*header*/
 	.topo

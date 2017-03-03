@@ -8153,6 +8153,7 @@ body {
 
 /*sections com 100% de altura */
 section,
+main,
 header {
   height: 100vh; }
 
@@ -8200,7 +8201,7 @@ header {
 /* section sobre */
 .sobre {
   text-align: center;
-  background-color: #011218;
+  background-color: #022424;
   color: #fff; }
   .sobre img {
     border: 5px #00A736 solid;
@@ -8221,7 +8222,11 @@ header {
     font-size: 1.3em;
     padding: 0px 30px; }
 
-/*desktop*/
+/*Section Habilidades*/
+.habilidades {
+  background-color: #011218; }
+
+/*mobile*/
 @media screen and (max-width: 480px) {
   /*header*/
   .topo {
@@ -8234,16 +8239,18 @@ header {
   .apresentacao p {
     font-size: 1.2em; }
   /*section sobre*/
-  .sobre img {
-    width: 150px;
-    margin: 0px 15px; }
-  .sobre .fa {
-    padding: 20px;
-    font-size: 2em; }
-  .sobre h3 {
-    font-size: 1.5; }
-  .sobre p {
-    font-size: 1em; } }
+  .sobre {
+    height: 100%; }
+    .sobre img {
+      width: 130px;
+      margin: 0px 5px; }
+    .sobre .fa {
+      padding: 20px;
+      font-size: 1.6em; }
+    .sobre h3 {
+      font-size: 1.5em; }
+    .sobre p {
+      font-size: 1em; } }
 
 /*tablet*/
 @media screen and (min-width: 481px) and (max-width: 980px) {
@@ -8263,7 +8270,7 @@ header {
     padding: 25px;
     font-size: 3em; } }
 
-/*mobile*/
+/*desktop*/
 @media screen and (min-width: 981px) {
   /*header*/
   .topo {
