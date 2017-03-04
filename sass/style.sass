@@ -19,11 +19,20 @@ body
 section,
 main,
 header
-	height: 100vh
+	min-height: 100vh		
 .conteudo
 	display: flex
 	justify-content: center
 	align-items: center	
+.container
+	text-align: center
+	p
+		font-size: 1.2em
+	h3
+		font-size: 3em
+	h4
+		padding: 10px 5px
+		font-size: 1.8em	
 /*header*/
 .topo
 	background-color: $black
@@ -75,12 +84,75 @@ header
 		background-color: rgba(#00A736, 0.7)	
 		box-shadow: 3px 3px 3px #00A736
 	h3 
-		font-size: 3em
 		padding: 25px
 	p 
-		font-size: 1.3em
-		padding: 0px 30px	
+		padding: 0px 30px
+/*curriculo*/
+.curriculo
+	display: flex
+	text-align: center
+	div
+		text-align: justify
+		width: 47%	
 /*Section Habilidades*/
+.habilidades
+	text-align: center
+
+.topicos
+	display: flex
+	justify-content: space-around
+	flex-wrap: wrap		
+	h4
+		color: $blackgreen
+.fa
+	padding: 0px 10px
+	color: #00A736
+	font-size: 1.4em
+
+.front
+	&:hover
+		border: 4px solid #0075AF		
+	&:hover
+		border: 4px solid #0075AF
+	h4
+		color: #0075AF
+.back
+	&:hover
+		border: 4px solid #bc4247
+	&:focus
+		border: 4px solid #bc4247
+	h4
+		color: #bc4247
+.desi
+	&:hover
+		border: 4px solid #FFCE2E
+	&:focus
+		border: 4px solid #FFCE2E
+	h4
+		color: #FFCE2E		
+.qa
+	&:hover
+		border: 4px solid #A752B8
+	&:focus
+		border: 4px solid #A752B8	
+	h4
+		color: #A752B8
+				
+.front,		
+.back,
+.desi,
+.qa	
+	transition: border 1s
+	border: 4px solid #001a23
+	background-color: #001a23
+	color: $white	
+	width: 30%
+	border-radius: 15px
+	padding: 0px 10px	
+	margin: 15px 0px 0px 0px
+.back
+	width: 96%
+
 .habilidades
 	background-color: $blackgreen
 
@@ -110,7 +182,13 @@ header
 		h3 
 			font-size: 1.5em
 		p 
-			font-size: 1em				
+			font-size: 1em
+	/*habilidades*/
+	.front,		
+	.back,
+	.desi,
+	.qa	
+		width: 90%						
 /*tablet*/
 @media screen and (min-width: 481px) and (max-width: 980px)
 	/*header*/
@@ -129,7 +207,14 @@ header
 			margin: 0px 25px 
 		.fa 
 			padding: 25px
-			font-size: 3em			
+			font-size: 3em
+	/*habilidades*/
+	.front,		
+	.back,
+	.desi,
+	.qa	
+		width: 48%
+
 /*desktop*/
 @media screen and (min-width: 981px)
 	/*header*/
