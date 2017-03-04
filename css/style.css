@@ -8232,11 +8232,20 @@ header {
 
 /*curriculo*/
 .curriculo {
-  display: flex;
   text-align: center; }
-  .curriculo div {
+  .curriculo .container {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff; }
+
+.curri {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; }
+  .curri div {
     text-align: justify;
-    width: 47%; }
+    width: 45%; }
 
 /*Section Habilidades*/
 .habilidades {
@@ -8370,4 +8379,8 @@ header {
   /*header*/
   .topo {
     background: url("../images/banner_top_desktop.jpg") center center no-repeat fixed;
+    background-size: cover; }
+  /*curriculo*/
+  .curriculo {
+    background: url("../images/curriculo_mid_desktop.jpg") center center no-repeat fixed;
     background-size: cover; } }
