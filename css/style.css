@@ -8250,6 +8250,8 @@ header {
 /*Section Habilidades*/
 .habilidades {
   text-align: center; }
+  .habilidades h3 {
+    color: #fff; }
 
 .topicos {
   display: flex;
@@ -8310,7 +8312,7 @@ header {
   width: 30%;
   border-radius: 15px;
   padding: 0px 10px;
-  margin: 15px 0px 0px 0px; }
+  margin: 15px 0px 0px; }
 
 .back {
   width: 96%; }
@@ -8348,7 +8350,11 @@ header {
   .back,
   .desi,
   .qa {
-    width: 90%; } }
+    width: 90%; }
+  /*curriculo*/
+  .curriculo {
+    background: url("../images/curriculo_mobile.jpg") center center no-repeat fixed;
+    background-size: cover; } }
 
 /*tablet*/
 @media screen and (min-width: 481px) and (max-width: 980px) {
@@ -8372,7 +8378,11 @@ header {
   .back,
   .desi,
   .qa {
-    width: 48%; } }
+    width: 48%; }
+  /*curriculo*/
+  .curriculo {
+    background: url("../images/curriculo_tablet.jpg") center center no-repeat fixed;
+    background-size: cover; } }
 
 /*desktop*/
 @media screen and (min-width: 981px) {
@@ -8382,5 +8392,5 @@ header {
     background-size: cover; }
   /*curriculo*/
   .curriculo {
-    background: url("../images/curriculo_mid_desktop.jpg") center center no-repeat fixed;
+    background: url("../images/curriculo_desktop.jpg") center center no-repeat fixed;
     background-size: cover; } }
